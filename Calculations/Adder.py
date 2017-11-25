@@ -10,7 +10,7 @@ with open(filename) as f:
 
 print("\n")   
 for line in content:
-    line = line.replace(" ", "")
+    line = line.replace(" ", "-")
     lineNum += 1
     numTest = 0
     expectMoney = False
@@ -41,6 +41,7 @@ for line in content:
                 numTest += 1 #Increment numTest by 1 so it is not a 4 for isdigit test
                 if moneyRecieved:
                     print(lineNum)
+                    moneyRecieved = False
                     total = total + int(tempMoney)
                     tempMoney = ""
 
