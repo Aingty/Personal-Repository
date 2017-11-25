@@ -38,7 +38,8 @@ for line in content:
                     moneyRecieved = True
                     tempMoney += char
             else:
-                numTest += 1 #Increment numTest by 1 so it is not a 4 for isdigit test
+                if expectMoney:
+                    numTest += 1 #Increment numTest by 1 so it is not a 4 for isdigit test
                 if moneyRecieved:
                     #print(tempMoney)
                     print(lineNum)
