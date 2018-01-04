@@ -42,7 +42,7 @@ for line in content:
                     numTest += 1 #Increment numTest by 1 so it is not a 4 for isdigit test
                 if moneyRecieved:
                     #print(tempMoney)
-                    print(lineNum)
+                    #print(lineNum)
                     moneyRecieved = False
                     total = total + int(tempMoney)
                     tempMoney = ""
