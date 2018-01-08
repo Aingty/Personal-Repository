@@ -47,4 +47,4 @@ for line in content:
                     total = total + int(tempMoney)
                     tempMoney = ""
 
-print("\nThe total is ", total)
+print("%s\nThe total is %s"%(line,total))
