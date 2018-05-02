@@ -1,7 +1,7 @@
 import sys
 import string
 
-filename = "cal.txt"
+filename = "/Users/Aingty/Applications/GitHub Repositories/Personal-Repository/Calculations/cal.txt"
 
 total = 0
 lineNum = 0
