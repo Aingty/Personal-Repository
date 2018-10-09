@@ -1,7 +1,7 @@
 import sys
 import string
 
-filename = "cal.txt"
+filename = "/Users/Aingty/Applications/GitHub Repositories/Personal-Repository/Calculations/cal.txt"
 
 total = 0
 lineNum = 0
@@ -42,9 +42,9 @@ for line in content:
                     numTest += 1 #Increment numTest by 1 so it is not a 4 for isdigit test
                 if moneyRecieved:
                     #print(tempMoney)
-                    print(lineNum)
+                    #print(lineNum)
                     moneyRecieved = False
                     total = total + int(tempMoney)
                     tempMoney = ""
 
-print("\nThe total is ", total)
+print("%s\nThe total is %s"%(line,total))
